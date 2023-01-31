@@ -8,6 +8,7 @@ function BeerApp() {
     const [searchBeers, setSearchBeers] = useState([])
     const [selectedBeer, setSelectedBeer] = useState({})
     const [compareBeers, setCompareBeers] = useState([])
+    //
 
     useEffect(() => {
         fetch('https://api.punkapi.com/v2/beers/random')
