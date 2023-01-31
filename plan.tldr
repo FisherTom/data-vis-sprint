@@ -1,0 +1,946 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.5,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "ef99002d-963d-478c-2ae8-d2c17f64b336": {
+            "id": "ef99002d-963d-478c-2ae8-d2c17f64b336",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              -2173.12,
+              -1222.22
+            ],
+            "size": [
+              3526.03,
+              2686.54
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "d221a0dd-4fd7-4e33-36fb-f6a54b945f71": {
+            "id": "d221a0dd-4fd7-4e33-36fb-f6a54b945f71",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [
+              -293.77,
+              -257.27
+            ],
+            "size": [
+              1203.46,
+              1504.69
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "yellow",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "26122059-865d-403b-1140-8914b5e833e6": {
+            "id": "26122059-865d-403b-1140-8914b5e833e6",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 17,
+            "point": [
+              -615.39,
+              -866.26
+            ],
+            "rotation": 0,
+            "text": "header",
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "middle"
+            }
+          },
+          "bcc1f6f0-fb95-4b88-0c15-03575a5d12a1": {
+            "id": "bcc1f6f0-fb95-4b88-0c15-03575a5d12a1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 18,
+            "point": [
+              -1315.5,
+              -256.29
+            ],
+            "size": [
+              722.11,
+              818.02
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "9ce5cf31-0eb2-437c-0256-012c89487a7b": {
+            "id": "9ce5cf31-0eb2-437c-0256-012c89487a7b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 19,
+            "point": [
+              -1321.99,
+              -82.43
+            ],
+            "rotation": 0,
+            "text": "selected beer picture ",
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.9079807868414599,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "e75a1de4-5364-4701-38f4-82366d414872": {
+            "id": "e75a1de4-5364-4701-38f4-82366d414872",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 20,
+            "point": [
+              171.08,
+              -374.84
+            ],
+            "rotation": 0,
+            "text": "search results",
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "268acf24-0130-499b-1967-50fbc2cd9ed9": {
+            "id": "268acf24-0130-499b-1967-50fbc2cd9ed9",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 27,
+            "point": [
+              -241.17,
+              -189.47
+            ],
+            "size": [
+              1085.08,
+              430.18
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "violet",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "39b955a8-3d0c-4c0b-23ae-96cd0faa0a7d": {
+            "id": "39b955a8-3d0c-4c0b-23ae-96cd0faa0a7d",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 28,
+            "point": [
+              -237.57,
+              300.49
+            ],
+            "size": [
+              1085.08,
+              430.18
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "violet",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "28ad245d-dd1c-481f-0452-020009249d1e": {
+            "id": "28ad245d-dd1c-481f-0452-020009249d1e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 29,
+            "point": [
+              -229.2,
+              769.82
+            ],
+            "size": [
+              1085.08,
+              430.18
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "violet",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "2467b545-aafd-4bd3-1e11-50afb27509fd": {
+            "id": "2467b545-aafd-4bd3-1e11-50afb27509fd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 30,
+            "point": [
+              144.562569309202,
+              -162.1224739426366
+            ],
+            "rotation": 0,
+            "text": "beer item",
+            "style": {
+              "color": "violet",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "cc1202da-cf1f-4686-218f-0a19c141ef0e": {
+            "id": "cc1202da-cf1f-4686-218f-0a19c141ef0e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 33,
+            "point": [
+              -1595.01,
+              645.09
+            ],
+            "size": [
+              1230.35,
+              593.98
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "b557e4bd-dbb7-4e4d-2f66-868eebe3e24a": {
+            "id": "b557e4bd-dbb7-4e4d-2f66-868eebe3e24a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 34,
+            "point": [
+              -1211.75,
+              892.9
+            ],
+            "size": [
+              0.11,
+              2.6
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "760fdc90-eb94-4c88-2d76-805d49f8095a": {
+            "id": "760fdc90-eb94-4c88-2d76-805d49f8095a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 35,
+            "point": [
+              -1255.6343101561365,
+              827.0255098305238
+            ],
+            "rotation": 0,
+            "text": "beer search box",
+            "style": {
+              "color": "green",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "d965b8ad-421e-4594-0bb4-c3ff10dc41e9": {
+            "id": "d965b8ad-421e-4594-0bb4-c3ff10dc41e9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 38,
+            "point": [
+              -458.4497452439241,
+              2026.5411119138016
+            ],
+            "rotation": 0,
+            "text": "app",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "e765127f-89c2-43f9-1a21-5a7cca93fd8b": {
+            "id": "e765127f-89c2-43f9-1a21-5a7cca93fd8b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 41,
+            "point": [
+              -833.08,
+              3390.03
+            ],
+            "rotation": 0,
+            "text": "selected beer pic",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "5fa540fb-fe6c-4eb1-35b1-f2bf763b6451": {
+            "id": "5fa540fb-fe6c-4eb1-35b1-f2bf763b6451",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 42,
+            "point": [
+              60.02,
+              3381.94
+            ],
+            "rotation": 0,
+            "text": "beer search box",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "d3ac3e67-9daf-46ae-181d-f5e5ec839362": {
+            "id": "d3ac3e67-9daf-46ae-181d-f5e5ec839362",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 43,
+            "point": [
+              1009.99,
+              3365.64
+            ],
+            "rotation": 0,
+            "text": "search results",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "335da4a2-b90c-41ab-14db-01d4e1c51c17": {
+            "id": "335da4a2-b90c-41ab-14db-01d4e1c51c17",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 44,
+            "point": [
+              729.95,
+              3950.29
+            ],
+            "rotation": 0,
+            "text": "beer item",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "8f5a9e98-33f9-430a-1f18-c2c279a72eae": {
+            "id": "8f5a9e98-33f9-430a-1f18-c2c279a72eae",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 45,
+            "point": [
+              1097.14,
+              4249.48
+            ],
+            "rotation": 0,
+            "text": "beer item",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "62edae23-e535-4711-174b-65e56066c4a0": {
+            "id": "62edae23-e535-4711-174b-65e56066c4a0",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 46,
+            "point": [
+              952.08,
+              4083.64
+            ],
+            "rotation": 0,
+            "text": "beer item",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "1b2262ab-9fc2-4396-09d7-02a5ed5c830c": {
+            "id": "1b2262ab-9fc2-4396-09d7-02a5ed5c830c",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 49,
+            "point": [
+              -438.46,
+              2635.73
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  532.96,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  726.1
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  266.48,
+                  363.05
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "e04d1e08-9c0d-4570-3f7c-065c6da09e8e": {
+            "id": "e04d1e08-9c0d-4570-3f7c-065c6da09e8e",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 50,
+            "point": [
+              126.97830409708558,
+              2639.8049843274794,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  161.24,
+                  701.7
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  80.62,
+                  350.85
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "60288dde-0d3f-4434-3f27-d56ea2166bf7": {
+            "id": "60288dde-0d3f-4434-3f27-d56ea2166bf7",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 51,
+            "point": [
+              187.8638918025099,
+              2647.9575709915425,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  924.48,
+                  705.78
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  462.24,
+                  352.89
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "9db2c653-d760-4618-3df6-95ddb54eaa63": {
+            "id": "9db2c653-d760-4618-3df6-95ddb54eaa63",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 52,
+            "point": [
+              1100.17,
+              3480.17
+            ],
+            "rotation": 0,
+            "bend": 0.00002114304201740806,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  82.37,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  458.16
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  41.19,
+                  229.08
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "1255235b-dedd-47a8-1fc2-12aed96cbe92": {
+            "id": "1255235b-dedd-47a8-1fc2-12aed96cbe92",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 53,
+            "point": [
+              131.23,
+              361
+            ],
+            "rotation": 0,
+            "text": "beer item",
+            "style": {
+              "color": "violet",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "58b883e4-ea5e-4f72-0f67-9a40044583bc": {
+            "id": "58b883e4-ea5e-4f72-0f67-9a40044583bc",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 54,
+            "point": [
+              121.98,
+              819.1
+            ],
+            "rotation": 0,
+            "text": "beer item",
+            "style": {
+              "color": "violet",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "f5f8626e-09b6-4721-097c-41634ac4c718": {
+            "id": "f5f8626e-09b6-4721-097c-41634ac4c718",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 48,
+            "point": [
+              -315.52598316901185,
+              2160.7434632106215,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": -8.422610640435065e-7,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  352.05,
+                  332.31
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  176.03,
+                  166.16
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "0e5478cc-78d0-4328-26c9-b30be0576eb5": {
+            "id": "0e5478cc-78d0-4328-26c9-b30be0576eb5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 40,
+            "point": [
+              20.611775872932867,
+              2505.6026330306595
+            ],
+            "rotation": 0,
+            "text": "beerApp",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "a222bab9-f882-4f7e-3ce3-49e0dd3f75ad": {
+            "id": "a222bab9-f882-4f7e-3ce3-49e0dd3f75ad",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 37,
+            "point": [
+              -1703.8273654063091,
+              -319.76346941422935
+            ],
+            "rotation": 0,
+            "text": "beers",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            }
+          },
+          "e452cd13-d135-4504-27f5-6c0f5d59baa1": {
+            "id": "e452cd13-d135-4504-27f5-6c0f5d59baa1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 36,
+            "point": [
+              -1771.22,
+              -390.86
+            ],
+            "size": [
+              2769.67,
+              1713.42
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "sans",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [
+          "05eec965-a02f-4ef4-271b-a4af86a28b2b"
+        ],
+        "camera": {
+          "point": [
+            2940.75,
+            3192.05
+          ],
+          "zoom": 0.14664712942009328
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

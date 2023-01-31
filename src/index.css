@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(89, 85, 95);
+  background-image: url("https://w0.peakpx.com/wallpaper/1006/622/HD-wallpaper-beer-liquid-abstract-fun-funny-gold-orange-white-yellow.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 code {
