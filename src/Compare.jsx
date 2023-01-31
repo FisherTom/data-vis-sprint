@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Compare({compareBeers, setSelectedBeer}) {
+function Compare({compareBeers, setSelectedBeer, setCompareBeers}) {
 
   function handleSelectCompareBeer(e){
     
@@ -14,17 +14,27 @@ function Compare({compareBeers, setSelectedBeer}) {
     })
   }
 
+  function handleRemoveCompareBeer(id){
+    setCompareBeers((currentCompareBeers) => {
+      console.log(currentCompareBeers[0].id, id);
+      return currentCompareBeers.filter((beer) => {return beer.id !== id})
+    })
+  }
+
   return (
     <ul className='compare-list'>
     {compareBeers.map((beer) => {
       console.log(beer.id);
       return (
+      <div>
         <li className='compare-item' key={beer.id} id={beer.id} onClick={(e)=> handleSelectCompareBeer(e)}>
           <h4 id={beer.id}>
             {beer.name}
           </h4>
           <img className='compare-img' id={beer.id} src={beer.image_url}/>
-         </li>
+        </li>
+        <button className='remove-compare-button' onClick={() => {handleRemoveCompareBeer(beer.id)}}></button>
+      </div>
       )
         })}
     </ul>

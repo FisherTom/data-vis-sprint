@@ -12,20 +12,16 @@ function BeerItem({beer, setSelectedBeer, compareBeers, setCompareBeers}) {
     })
   }
 
-  function handleCompareBeers(e){
-    const checked = e.target.checked;
+  function handleAddCompareBeers(beer){
     setCompareBeers((currentCompareBeers) => {
-      if(checked){
         return [...currentCompareBeers, beer]
-      }else{
-        return currentCompareBeers.filter(beerToRemove => beerToRemove !== beer);
-      }
     })
   }
 
   return (
     <div className='beer-item'>
-      <input type="checkbox" className='list-checkbox' onChange={(e)=>{handleCompareBeers(e)}}/>
+      
+      <button className='compare-button' onClick={() => {handleAddCompareBeers(beer)}}>Add</button>
       <li onClick={(e) => {handleSelectBeerFromList(e)}} id={beer.id} key={beer.id}>{beer.name}</li>
     </div> 
   )

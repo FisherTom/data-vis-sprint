@@ -9,8 +9,8 @@
   font-family: 'Rubik Mono One', sans-serif;
   font-weight: 100;
   font-size: 4em;
-  color: rgb(0, 0, 0);
-  text-shadow: 3px 3px 5px rgb(116, 116, 116);
+  color: whitesmoke;
+  text-shadow: 3px 3px 20px rgb(0, 0, 0);
   /* -webkit-text-stroke: 2px black; */
 }
 .beer-app{
@@ -175,8 +175,16 @@ margin-bottom: 4em;
   font-weight: 800;
   cursor:pointer;
 }
-.list-checkbox{
-  margin-right: 2em;
+.compare-button{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 10;
+  font-size: 0.7rem;
+  margin-right: 2rem;
+  border-radius: 0.5em;
+  background-color: white;
+}
+.compare-button:hover{
+ box-shadow: 3px 3px black;
 }
 .compare-list{
   display: flex;
@@ -188,7 +196,14 @@ margin-bottom: 4em;
   display: flex;
   flex-direction: column;
   align-items: center;
-margin: 1em;
+  margin: 1em;
+}
+.compare-list>div{
+ align-self: flex-end;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
 }
 .compare-item>h4{
   max-width: 8vw;
@@ -197,6 +212,7 @@ margin: 1em;
   font-family: 'Rubik Mono One', sans-serif;
   font-weight: 100;
   font-size: small;
+  
 }
 .compare-item:hover{
   text-shadow: 3px 3px black;
@@ -204,6 +220,19 @@ margin: 1em;
 }
 .compare-img{
   height: 150px;
+  margin-top: 0.5em;
+}
+.remove-compare-button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 147, 147);
+  border: 0;
+  box-shadow: 0px 0px 10px inset red;
+}
+.remove-compare-button:hover{
+  
+  box-shadow: 3px 3px 10px, 0px 0px 10px inset red;
 }
 
 .ebc-1 {
