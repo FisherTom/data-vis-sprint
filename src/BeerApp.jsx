@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import BeerSearch from './BeerSearch'
 import Compare from './Compare'
 
+
 import SelectedBeerInfo from './SelectedBeerInfo'
 
 function BeerApp() {
@@ -23,6 +24,7 @@ function BeerApp() {
   return (
     <div className='beer-app'>
     <SelectedBeerInfo selectedBeer={selectedBeer}/>
+   
     {compareBeers.length>0 ? <Compare setSelectedBeer={setSelectedBeer} compareBeers={compareBeers} setCompareBeers={setCompareBeers}/> : <div></div>}
     <BeerSearch searchBeers={searchBeers} setSearchBeers={setSearchBeers} selectedBeer={selectedBeer} setSelectedBeer={setSelectedBeer} compareBeers={compareBeers} setCompareBeers={setCompareBeers}/>
     </div>
